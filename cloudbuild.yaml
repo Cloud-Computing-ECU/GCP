@@ -1,5 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/django-cloud-414620/django_webserver', '.']
+    args: ['build', '-t', 'gcr.io/My-Project-43945/GCP-Flask', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/django-cloud-414620/django_webserver']
+    args: ['push', 'gcr.io/My-Project-43945/GCP-Flask']
