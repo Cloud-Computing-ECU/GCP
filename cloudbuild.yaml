@@ -1,5 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/my-project-43945/gcp-flask', '.']
+    args: ['build', '-t', 'gcr.io/inspired-shell-319302/gcp-flask', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/my-project-43945/gcp-flask']
+    args: ['push', 'gcr.io/inspired-shell-319302/gcp-flask']
